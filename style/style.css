@@ -1,0 +1,126 @@
+html, body {
+    margin: 0px;
+  }
+  
+  html {
+    width: 100%;
+    height: 100%;
+    font-size: 13px;
+    font-family: 'Donegal One', serif;
+    /* This should be by default || background: #8cb7d2;*/
+    background-image: url("/Users/macbookpro/web-course/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  body {
+    width: 70rem;
+    position: relative;
+    background: #dfb752;
+    margin: 0 auto;
+    border-left: 2px solid #FF6400;
+    border-right: 2px solid #FF6400;
+    border-bottom: 2px solid #FF6400;
+    border-radius: 45px;
+  }
+  h1{
+    text-align: center;
+    background: #FF6400;
+    font-family: 'Lily Script One', cursive;
+    font-size: 6rem;
+    margin: 0;
+    background: -webkit-linear-gradient(top, #FF9640, #FF6400);
+    background: -moz-linear-gradient(top, #FF9640, #FF6400);
+    background: -ms-linear-gradient(top, #FF9640, #FF6400);
+    background: linear-gradient(top, #FF9640, #FF6400);
+    text-shadow: 1px 1px 1px #FF6400, 2px 2px 1px black;
+  }
+  .nav1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  .form1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+  .text1{
+    margin-left: 34px;
+    margin-bottom: 10px;
+    width: 45ch;
+    height: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  .text2{
+    margin-left: 5px;
+    width: 45ch;
+    height: 19px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+  .fname1, .email1, .par1{
+    margin-left: 120px;
+  }
+  #html, #css, #javascript {
+    margin-left: 150px;
+  }
+  .submit{
+    background-color: rgb(11, 154, 42);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 80px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    margin-left: 335px;
+    font-size: 15px;
+    transition: opacity 0.15s;
+  }
+  .submit:hover {
+    /* || background-color: green; (element changes the color in ove passing
+    the cursor */
+    opacity: 0.8; /* || opacity does the fading action. It goes to 0 - 1 */
+  }
+  .submit:active {
+    opacity: 0.5; /* || active pseudo-class or style will play by clicking on the element */
+  }
+  .clear{
+    background-color: white;
+    color: rgb(41, 118, 211);
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    height: 36px;
+    width: 65px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.15s, color 0.15s;
+  }
+  .clear:hover {
+    background-color:rgb(41, 118, 211) ;
+    color: white;
+  }
+  .clear:active {
+    opacity: 0.7;
+  }
+  .exit{
+    background-color: rgb(255, 2, 2);
+    color: white;
+    border: none;
+    height: 36px;
+    width: 75px;
+    border-radius: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: box-shadow 0.15s;
+  }
+  .exit:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+  }
+  .exit:active{
+    background-color: white;
+    color: rgb(2, 158, 255);
+  }
