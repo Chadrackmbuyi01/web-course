@@ -124,3 +124,7 @@ html, body {
     background-color: white;
     color: rgb(2, 158, 255);
   }
+  footer{
+    margin-top: 70px;
+    text-align: center;
+  }

@@ -15,9 +15,11 @@
         <nav class="nav1">
             <form class="form1">
                 <label for="fname" class="fname1">Full name:</label>
-                <input type="text" id="fname" name="fname" class="text1"><br>
+                <input required title="This field is required" required="required" minlength="1" maxlength="2" 
+                placeholder="Full name" type="text" id="fname" name="fname" class="text1"><br>
                 <label for="email" class="email1">Email address:</label>
-                <input type="text" id="email" name="email" class="text2"><br>
+                <input required title="This field is required" required="required" minlength="1" maxlength="2" 
+                placeholder="Email" type="text" id="email" name="email" class="text2"><br>
 
                 <p class="par1">Choose your favorite web language:</p>
                 
@@ -31,10 +33,12 @@
 
             <button class="submit">SUBMIT</button>
 
-            <button class="clear">CLEAR</button>
+            
+            <input type="button" class="clear" value="Clear Form" onclick="clearForm(this.form1);"/>
 
             <button class="exit">EXIT</button>
         </nav>
     </div>
+    <footer><p>Copyright@ChadSmith</p></footer>
 </body>
 </html>
